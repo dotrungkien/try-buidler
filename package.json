@@ -1,0 +1,30 @@
+{
+  "name": "try-buidler",
+  "version": "1.0.0",
+  "description": "try some implement with https://buidler.dev/",
+  "main": "buidler.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@nomiclabs/buidler": "^1.0.0-beta.7",
+    "@nomiclabs/buidler-truffle5": "^1.0.0-beta.7",
+    "@nomiclabs/buidler-web3": "^1.0.0-beta.7",
+    "web3": "^1.0.0-beta.37"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotrungkien/try-buidler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotrungkien/try-buidler/issues"
+  },
+  "homepage": "https://github.com/dotrungkien/try-buidler#readme"
+}

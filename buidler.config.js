@@ -1,7 +1,9 @@
-task("accounts", "Prints a list of the available accounts", async () => {
-  const accounts = await ethereum.send("eth_accounts")
+usePlugin('@nomiclabs/buidler-truffle5');
 
-  console.log("Accounts:", accounts)
-})
+task('accounts', 'Prints a list of the available accounts', async () => {
+  const accounts = await ethereum.send('eth_accounts');
 
-module.exports = {}
+  console.log('Accounts:', accounts);
+});
+
+module.exports = {};
